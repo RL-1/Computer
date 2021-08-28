@@ -1,0 +1,28 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    color: #000 !important;
+}
+.Header_button{
+    background: linear-gradient(75deg, #C89AFC, #7C6AFA );
+    padding:10px 30px;
+    border-radius: 200px;
+    text-align: center;
+}
+.Header_container{
+    display: flex;
+    justify-content: space-around;
+    margin-top:35px;
+}
+.Header_items{
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    align-items:center;
+    grid-gap:23px;
+    margin-left:0 312px;
+}
+.Header_element{
+    font-size: 16px;
+    line-height: 24px;
+}
