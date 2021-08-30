@@ -1,8 +1,9 @@
 *{
     margin:0;
-    padding:0;
+    padding: 0;
     text-decoration: none;
-    color: #000 !important;
+    color: #fff !important;
+    box-sizing: border-box;
 }
 .Header_button{
     background: linear-gradient(75deg, #C89AFC, #7C6AFA );
@@ -13,7 +14,7 @@
 .Header_container{
     display: flex;
     justify-content: space-around;
-    margin-top:35px;
+    padding-top:35px;
 }
 .Header_items{
     display: grid;
@@ -25,4 +26,11 @@
 .Header_element{
     font-size: 16px;
     line-height: 24px;
+}
+.Header_block_img{
+    background-image: url('../../Img/main-screen__bgc.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    min-height: 960px;
 }

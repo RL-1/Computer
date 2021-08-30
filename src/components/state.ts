@@ -1,5 +1,6 @@
+import { HeaderItemsProps } from '../types/data';
 let state = {
-     HeaderElements:[
+     HeaderElements:[ //Нужно типизировать
         {item:'Главная', link:'main'},
         {item:'Курсы', link:'course'},
         {item:'Расписание', link:'timetable'},
