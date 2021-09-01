@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter } from 'react-router-dom';
 import { Course } from './components/Course/Course';
 import { Header } from './components/Header/Header';
+import { Start } from './components/Start/Start';
 import { Work } from './components/Work/work';
 
 
@@ -11,6 +12,7 @@ ReactDOM.render(
     <Header />
     <Course />
     <Work />
+    <Start />
   </BrowserRouter>,
   document.getElementById('root')
 );

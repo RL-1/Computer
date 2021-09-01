@@ -16,3 +16,10 @@ export interface CourseItemsProps{
     text:string,
     number:string,
 }
+export interface StartItemsProps{
+    percent:string,
+    text:string,
+    height:string,
+    tops:string,
+    bottom:string,
+}
