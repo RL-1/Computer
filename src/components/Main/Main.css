@@ -1,5 +1,10 @@
 .Main_container{
-   margin:198px 312px 50px 312px;
+   padding-top:192px;
+   padding-left:15px;
+   padding-right: 15px;
+   max-width: 1345px;
+   margin:0 auto;
+   justify-content: space-around;
 }
 .Main_title{
     font-weight: bold;

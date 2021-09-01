@@ -7,6 +7,10 @@ let state = {
         {item:'Преподаватели', link:'Teachers'},
         {item:'Рассылка', link:'Newsletter'},
         {item:'Контакты', link: 'Contacts'}
+    ],
+    CourseElements:[
+        {text:'Учеников всего:',number:'200'},
+        {text:'Успешно закончили курс:',number:'190'},
     ]
 }
 

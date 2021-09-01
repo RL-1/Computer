@@ -16,7 +16,7 @@ const MainTime = ({ day = 0 ,hours = 0, minutes = 0, seconds = 60 }: MainTimeTyp
         }
         else if (time.hours === 0 && time.minutes === 0 && time.seconds === 0) 
             setTime({day:time.day -1,hours:23,minutes:59,seconds:59})
-        else if (time.hours === 0 && time.seconds === 0) {
+        else if (time.minutes === 0 && time.seconds === 0) {
             setTime({day:time.day,hours: time.hours - 1, minutes: 59, seconds: 59});
         } else if (time.seconds === 0) {
             setTime({day:time.day,hours: time.hours, minutes: time.minutes - 1, seconds: 59});

@@ -12,3 +12,7 @@ export interface MainItemsType{
     time:string;
     title:string;
 }
+export interface CourseItemsProps{
+    text:string,
+    number:string,
+}

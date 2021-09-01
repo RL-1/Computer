@@ -1,12 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter } from 'react-router-dom';
+import { Course } from './components/Course/Course';
 import { Header } from './components/Header/Header';
 
 
 ReactDOM.render(
   <BrowserRouter>
     <Header />
+    <Course />
   </BrowserRouter>,
   document.getElementById('root')
 );
