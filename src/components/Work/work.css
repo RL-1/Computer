@@ -1,0 +1,33 @@
+.Work_container{
+    background-color: black;
+    width: 100%;
+    position: relative;
+}
+.work_box{
+    width: 1305px;
+    margin:0 auto;
+}
+.work_computer{
+    display: flex;
+    padding-top:200px;
+}
+.work_text_all{
+    text-align: center;
+    width: 620px;
+    align-items: center;
+    justify-content: center;
+    margin:0 auto;
+    justify-content: space-around;
+}
+.work_title{
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 140%;
+    padding-top:70px;   
+    padding-bottom: 45px;
+}
+.work_text{
+    font-size: 16px;
+    line-height: 160%;
+    width: 600;
+}
