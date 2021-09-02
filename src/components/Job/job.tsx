@@ -3,6 +3,10 @@ import './job.css'
 import { JobItems } from './jobItems'
 
 const Job: React.FC = () => {
+
+    const jobElementsMap = state.JobElement.map(e =>
+        <JobItems svg={e.svg} text={e.text} title={e.title} />
+    )
     return (
         <div className='job_container'>
             <div className="job_box">
@@ -10,9 +14,7 @@ const Job: React.FC = () => {
                     Получите профессию прямо сейчас
                 </div>
                 <div className='job_element'>
-                    {state.JobElement.map(e =>
-                        <JobItems svg={e.svg} text={e.text} title={e.title} />
-                    )}
+                    { jobElementsMap }
                 </div>
             </div>
         </div>

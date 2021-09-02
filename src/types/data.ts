@@ -28,3 +28,11 @@ export interface JobItemsProps{
     title:string,
     text:string,
 }
+
+export interface PartnertsItemsProps{
+    img:any;
+}
+export interface ProgramItemsProps{
+    week:string,
+    text:string,
+}

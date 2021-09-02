@@ -7,14 +7,17 @@ import { NavLink } from 'react-router-dom';
 
 
 const Header: React.FC = () => {
+
+    const headerElementsMap = state.HeaderElements.map(e =>
+        <HeaderItems item={e.item} link={e.link} />
+    )
+
     return (
         <div className='Header_block_img'>
             <div className='Header_container'>
                 <img src={svg_logo} alt="" className='Header_img' />
                 <div className='Header_items'>
-                    {state.HeaderElements.map(e =>
-                        <HeaderItems item={e.item} link={e.link} />
-                    )}
+                    { headerElementsMap }
                 </div>
                 <NavLink to='/'>
                     <span className='Header_button'>

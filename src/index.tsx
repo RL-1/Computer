@@ -1,9 +1,12 @@
+import { program } from '@babel/types';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter } from 'react-router-dom';
 import { Course } from './components/Course/Course';
 import { Header } from './components/Header/Header';
 import { Job } from './components/Job/job';
+import { Partnerts } from './components/Partnerts/partnerts';
+import { Programs } from './components/Program/Program';
 import { Start } from './components/Start/Start';
 import { Work } from './components/Work/work';
 
@@ -15,6 +18,8 @@ ReactDOM.render(
     <Work />
     <Start />
     <Job />
+    <Partnerts />
+    <Programs />
   </BrowserRouter>,
   document.getElementById('root')
 );

@@ -4,6 +4,10 @@ import './Start.css';
 import { StartItems } from './StartItems';
 
 const Start:React.FC = () => {
+
+    const startElementsMap = state.StartElement.map(e=>
+        <StartItems percent = {e.percent} text = {e.text} height = {e.height} tops = {e.tops} bottom = {e.bottom}/>
+    )
     return(
         <div className = 'start_container'>
             <div className="start_first">
@@ -18,9 +22,7 @@ const Start:React.FC = () => {
                 </div>
             </div>
             <div className="start_static">
-                {state.StartElement.map(e=>
-                    <StartItems percent = {e.percent} text = {e.text} height = {e.height} tops = {e.tops} bottom = {e.bottom}/>
-                )}
+                {startElementsMap}
             </div>
         </div>
     )
