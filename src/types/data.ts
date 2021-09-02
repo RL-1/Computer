@@ -23,3 +23,8 @@ export interface StartItemsProps{
     tops:string,
     bottom:string,
 }
+export interface JobItemsProps{
+    svg:string,
+    title:string,
+    text:string,
+}

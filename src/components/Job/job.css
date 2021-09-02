@@ -1,0 +1,43 @@
+.job_container{
+    width: 100%;
+    background-color: black;
+    padding-top:200px;
+}
+.job_box{
+    width: 1305px;
+    margin:0 auto;
+}
+.job_proffesion{
+    text-align: center;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 140%;
+}
+.job_element{
+    display: flex;
+    margin-top:120px;
+}
+.job_block{
+    width: 416px;
+    white-space: pre-line
+}
+.job_title{
+    margin-top:60px;
+    margin-bottom: 30px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 140%;
+    text-align: center;
+}
+.job_text{
+    font-size: 16px;
+    line-height: 160%;
+    text-align: center;
+    opacity: 0.5;
+    width: 360px;
+    margin: 0 auto;
+    text-align: center;
+}
+.job_svg{
+    margin-left:38%;
+}

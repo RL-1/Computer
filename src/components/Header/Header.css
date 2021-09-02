@@ -12,8 +12,10 @@
     text-align: center;
 }
 .Header_container{
+    width: 1305px;
+    margin:0 auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding-top:35px;
 }
 .Header_items{
@@ -21,7 +23,6 @@
     grid-template-columns: repeat(6, auto);
     align-items:center;
     grid-gap:23px;
-    margin-left:0 312px;
 }
 .Header_element{
     font-size: 16px;
