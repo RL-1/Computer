@@ -3,11 +3,13 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter } from 'react-router-dom';
 import { Course } from './components/Course/Course';
+import { Footer } from './components/Footer/footer';
 import { Header } from './components/Header/Header';
 import { Job } from './components/Job/job';
 import { Partnerts } from './components/Partnerts/partnerts';
 import { Programs } from './components/Program/Program';
 import { Start } from './components/Start/Start';
+import { Teacher } from './components/Teacher/teacher';
 import { Work } from './components/Work/work';
 
 
@@ -20,6 +22,8 @@ ReactDOM.render(
     <Job />
     <Partnerts />
     <Programs />
+    <Teacher />
+    <Footer />
   </BrowserRouter>,
   document.getElementById('root')
 );

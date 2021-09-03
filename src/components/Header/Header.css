@@ -12,7 +12,7 @@
     text-align: center;
 }
 .Header_container{
-    width: 1305px;
+    max-width: 1305px;
     margin:0 auto;
     display: flex;
     justify-content: space-between;
@@ -29,6 +29,7 @@
     line-height: 24px;
 }
 .Header_block_img{
+    position: relative;
     background-image: url('../../Img/main-screen__bgc.png');
     background-position: center;
     background-repeat: no-repeat;

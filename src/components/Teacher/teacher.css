@@ -1,0 +1,66 @@
+.teacher_container{
+    background-color: black;
+    width: 100%;
+}
+
+.teacher_box{
+    max-width: 1305px;
+    margin:0 auto;
+    padding-top:200px;
+}
+.teacher_block{
+    display: flex;
+    gap:40px;
+}
+.teacher_title{
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 140%;
+    padding-top:30px;
+}
+.teacherItems_container{
+    max-width: 416px;
+}
+.teacher_info{
+    margin-top:113px;
+    display: flex;
+    justify-content: space-around;
+}
+.teacherItems_name{
+    font-size: 24px;
+    line-height: 140%;
+    text-align: center;
+    margin-top:40px;
+    margin-bottom: 15px;
+}
+.teacherItems_job{
+    font-size: 16px;
+    line-height: 160%;
+    text-align: center;
+    margin-bottom: 30px;
+    position: relative;
+    opacity: 0.5;
+}
+.teacherItems_papa{
+    display: flex;
+    justify-content: center;
+}
+.teacherItems_button{
+    display: flex;
+    position: static;
+    width: 143px;
+    justify-content: center;
+    border:2px solid #fff;
+    border-radius: 20px;
+    padding: 10px 30px;
+    font-size: 16px;
+    line-height: 150%;
+}
+.teacherItems_img{
+    display: flex;
+}
+.footer_button{
+    background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+    border-radius: 50px;
+    padding: 10px 30px;
+}

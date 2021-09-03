@@ -36,3 +36,11 @@ export interface ProgramItemsProps{
     week:string,
     text:string,
 }
+export interface TeacherItemsProps{
+    img:any,
+    name:string,
+    job:string,
+}
+export interface FooterItemsProps{
+    svg:any;
+}

@@ -1,8 +1,16 @@
 import { HeaderItemsProps } from '../types/data';
-import svg_computer from './../Svg/icon-1.svg'
-import svg_flash_drive from './../Svg/icon-2.svg'
+import svg_computer from './../Svg/icon-1.svg';
+import svg_flash_drive from './../Svg/icon-2.svg';
 import svg_usb from './../Svg/icon-3.svg'
 import msi from '../Img/logo (1).png';
+import teacher1 from '../Img/Ellipse 2.png';
+import teacher2 from '../Img/Ellipse 2 (1).png';
+import teacher3 from'../Img/Ellipse 2 (2).png';
+import vk from '../Svg/vk.svg';
+import youtube from '../Svg/youtube.svg';
+import facebook from '../Svg/facebook.svg';
+import intagram from '../Svg/instagram.svg';
+
 
 let state = {
      HeaderElements:[ //Нужно типизировать
@@ -48,6 +56,17 @@ let state = {
         {week:'Неделя №2',text:'Красивая часть курса,\nкоторая помогает в успехе'},
         {week:'Неделя №4',text:'Красивая часть курса,\nкоторая помогает в успехе'},
         {week:'Неделя №6',text:'Красивая часть курса,\nкоторая помогает в успехе'},
+    ],
+    TeacherElement:[
+        {img:teacher1,name:'Дмитрий Иванов',job:'Специалист по видеокартам'},
+        {img:teacher2,name:'Дмитрий Иванов',job:'Специалист по видеокартам'},
+        {img:teacher3,name:'Дмитрий Иванов',job:'Специалист по видеокартам'}
+    ],
+    FooterElement:[
+        {svg:vk},
+        {svg:youtube},
+        {svg:facebook},
+        {svg:intagram},
     ]
 }
 

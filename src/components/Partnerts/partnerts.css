@@ -4,7 +4,7 @@
     padding-top:200px;
 }
 .partnerts_box{
-    width: 1305px;
+    max-width: 1305px;
     position: relative;
     margin:0 auto;
 }
@@ -19,7 +19,7 @@
 }
 .partnerts_brend{
     display: grid;
-    grid-template-columns: repeat(4,1fr)
+    grid-template-columns: repeat(4,1fr);
 }
 .Partnerts_brend_element{
     margin-top:60px;

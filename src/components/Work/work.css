@@ -4,7 +4,7 @@
     position: relative;
 }
 .work_box{
-    width: 1305px;
+    max-width: 1305px;
     margin:0 auto;
 }
 .work_computer{
